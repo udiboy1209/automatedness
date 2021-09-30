@@ -1,0 +1,12 @@
+{% extends "!simple/article.html" %}
+
+{% block heading %}
+  <h3>{{ article.title }}</h3>
+  <span>{{ article.date|strftime("%Y-%m-%d") }}</span>
+  <span class="separator">&nbsp;</span>
+  <a class="subtle" href="/{{ article.category.url }}">{{ article.category }}</a>
+{% endblock %}
+
+{% block content %}
+{{ article.content }}
+{% endblock %}
