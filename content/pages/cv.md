@@ -7,6 +7,6 @@ save_as: cv.html
 
 <embed src="/pdfs/cv_one_page.pdf" width="100%" height="400px" type="application/pdf">
 
-#### [Full CV](/pdfs/cv_three_page.pdf)
+#### Full CV
 
-<embed src="/pdfs/cv_one_page.pdf" width="100%" height="400px" type="application/pdf">
+Coming soon...
