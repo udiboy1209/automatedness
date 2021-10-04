@@ -26,3 +26,6 @@ PAGE_URL = '{slug}.html'
 DIRECT_TEMPLATES = ['blog']
 
 STATIC_PATHS = ['images', 'pdfs']
+EXTRA_PATH_METADATA = {
+    'images/favicon.ico': {'path': 'favicon.ico'},
+}
