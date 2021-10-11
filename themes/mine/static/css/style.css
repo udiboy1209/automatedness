@@ -82,3 +82,11 @@ a.subtle:hover {
   color: #1EAEDB;
   text-decoration: underline;
 }
+
+.footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: dotted 1px blue;
+  text-size: 0.7em;
+  color: gray;
+}
