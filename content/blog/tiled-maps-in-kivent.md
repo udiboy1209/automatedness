@@ -1,7 +1,8 @@
 ---
 title: How To Use Tiled Maps In KivEnt
 date: 2016-08-19
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 This is a tutorial for using the maps module in kivent to load Tiled maps. It

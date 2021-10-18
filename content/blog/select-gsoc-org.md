@@ -1,7 +1,8 @@
 ---
 title: How to select an organisation for GSoC?
 date: 2016-12-06
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 Hello! Its been a long time since I have posted something, because it has been

@@ -1,6 +1,9 @@
 ---
 title: Execution Migration on HIDC
 date: 2018-07-13
+category: Research
+tag: R&D project
+summary: Heterogeneous-ISA Dynamic Core is a reconfigurable composite core which supports runtime migration between multiple ISAs. Runtime migration needs to ensure the consistency of memory image for both ISAs. This project implements a methodology for Exection Migration of HIDC between x86 and ARM ISAs. To harness the benefits of ISA diversity fully, execution migration cost needs to be low enough so that frequent migration can be justified performance-wise.
 ---
 
 Full report is available [here](/pdfs/hidc_report.pdf).

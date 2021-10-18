@@ -1,7 +1,8 @@
 ---
 title: Cython Needs A Lint Tool
 date: 2016-06-18
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 My love for cython has kept increasing constantly for the past few weeks.

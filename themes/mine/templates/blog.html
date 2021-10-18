@@ -1,6 +1,0 @@
-{% extends "index.html" %}
-
-{% set _list_articles = articles | rejectattr("category", "equalto", "Projects") %}
-{% block heading %}
-<h3> My Blog </h3>
-{% endblock %}

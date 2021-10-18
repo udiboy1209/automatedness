@@ -1,7 +1,8 @@
 ---
 title: I Got Selected For GSoC 2016!
 date: 2016-04-26
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 I'm really excited to say that my project was selected for Google Summer of Code 2016! 

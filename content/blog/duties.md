@@ -1,7 +1,8 @@
 ---
 title: A Man Has Duties
 date: 2016-06-05
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 Game of Thrones fans might identify the title as a (not so)

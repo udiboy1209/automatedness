@@ -1,7 +1,8 @@
 ---
 title: Python Strings and the Headaches of Encoding
 date: 2016-05-22
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 #### Life is never simple

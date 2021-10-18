@@ -16,11 +16,14 @@ as part of [Computer Architecture and Dependable Systems Lab (CADSL)](https://ww
 guided by [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/).
 
 My research interests revolve around computer architecture and span many domains like hardware security,
-ML accelerators, code generation for SIMD architectures and low-power computing.
+ML accelerators, code generation for SIMD architectures and low-power computing. Check out the [research](/research) page for more details.
 In Qualcomm, I am currently working on **automatic SIMD code generation** using dataflow analysis and polyhedral optimization.
 I am also continuously developing innovative **graph optimization** techniques which are applicable to
 ML models for tasks like 2D and 3D computer vision, autonomous driving, recommendation systems and natural language processing.
 In CADSL, I have worked on a **prefetcher-disabling attack** which can reduce interference with cache side channels and amplify information leakage.
 I have also worked on the **Heterogenous-ISA Dynamic Core**, a composite core architecture which combines support for multiple ISAs.
+I have contributed to the [Kivent](https://github.com/kivy/kivent) Game Engine of Kivy Python NUI framework as part of Google Summer-of-Code.
+You can look at my [blog](/blog) for updates on that project.
 
 I am an avid reader of manga and thriller novels. I love sketching, gardening and brewing tea in my free time.
+I keep publishing hobby projects on github, you can find a (rarely updated) list [here](/hobby).

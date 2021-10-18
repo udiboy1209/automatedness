@@ -23,9 +23,18 @@ PAGE_PATHS = ['pages']
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
-DIRECT_TEMPLATES = ['blog']
-
 STATIC_PATHS = ['images', 'pdfs']
 EXTRA_PATH_METADATA = {
     'images/favicon.ico': {'path': 'favicon.ico'},
 }
+
+AUTHOR_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+ARCHIVES_SAVE_AS = ''
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None

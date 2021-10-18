@@ -1,7 +1,8 @@
 ---
 title: Hello World
 date: 2016-04-08
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 This is my first blog post! I'm starting this blog specifically for GSoC 2016.

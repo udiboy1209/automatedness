@@ -1,7 +1,8 @@
 ---
 title: One Hell Of A Summer!
 date: 2016-08-16
-category: GSoC
+tag: GSoC
+category: Blog
 ---
 
 I always wondered how large-scale projects and organisations got formed and
