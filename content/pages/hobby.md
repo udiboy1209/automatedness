@@ -4,9 +4,8 @@ template: list
 filter_category: Hobby
 ---
 
-I have been contributing to open source projects on github for a while. I have also contributed a bit to open source hardware by designing boards and circuits for the Electronics Club, IIT Bombay. I have contributed to [kivy](https://github.com/kivy) as part of Google Summer-of-Code.
-
 I regularly publish code on github and gitlab, which is mainly scripts and tools I have written for my daily use or just for fun.
+I have also contributed a bit to open source hardware by designing boards and circuits for the Electronics Club, IIT Bombay.
 
 <!--
  ____                                                                _____         ____ 

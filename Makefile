@@ -72,6 +72,6 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 ssh: publish
-	scp -r output/* udiboy@mudeshi.in:/opt/blog/
+	rsync -a --delete output/ udiboy@mudeshi.in:/opt/blog/
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github

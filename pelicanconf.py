@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+PLUGINS = ['render_math']
+
 AUTHOR = 'Meet Udeshi'
 SITENAME = 'Meet Udeshi'
 SITEURL = ''
@@ -38,3 +40,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+TRANSLATION_FEED_ATOM = None
+
+MATH_JAX = {'color':'blue','align':'left'}
+JINJA_ENVIRONMENT = {'extensions': ['jinja2_highlight.HighlightExtension']}
