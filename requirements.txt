@@ -1,0 +1,4 @@
+pelican
+pelican-render-math
+markdown
+jinja2_highlight

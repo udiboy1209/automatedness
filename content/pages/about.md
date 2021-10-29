@@ -5,8 +5,7 @@ save_as: index.html
 
 Hello! I am Meet Udeshi. 
 <img src="/images/profile.jpg" alt="profile photo" title="Yes, that's me." style="margin: 10px; width: 30%; float:right;"/>
-I am currently employed at Qualcomm Corporate R&D as an **ML Compiler Engineer**
-in the AI Software Team.
+I am a Senior Engineer at Qualcomm Corporate R&D in the **ML Compiler Team**.
 I work on the compiler stack for the
 [Cloud AI100 Accelerator](https://www.qualcomm.com/products/cloud-artificial-intelligence) platform.
 I completed my Bachelor's and Master's degree in Electrical Engineering from IIT Bombay

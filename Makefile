@@ -71,7 +71,7 @@ devserver-global:
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
-ssh: publish
-	rsync -a --delete output/ udiboy@mudeshi.in:/opt/blog/
+deploy: publish
+	rsync -a --delete output/ /opt/blog/
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
