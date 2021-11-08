@@ -25,9 +25,10 @@ PAGE_PATHS = ['pages']
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pdfs', 'static']
 EXTRA_PATH_METADATA = {
     'images/favicon.ico': {'path': 'favicon.ico'},
+    'static/countdown.html': {'path': 'countdown.html'}
 }
 
 AUTHOR_SAVE_AS = ''
