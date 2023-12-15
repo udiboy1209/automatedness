@@ -1,9 +1,9 @@
 ---
 title: Improving ADCs by intentionally adding noise
 date: 2016-10-29
-summary: How noise addition helps in increasing accuracy of Analog to Digital conversion
 category: Blog
 tags: ADC, Dither
+image: //upload.wikimedia.org/wikipedia/commons/5/57/1_bit.png
 ---
 
 Everybody has this presumed notion that noise in an electronic system is bad.

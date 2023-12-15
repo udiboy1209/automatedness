@@ -165,7 +165,7 @@ This awesome video by Computerphile <3:
 I'm anxious for the start of the coding period for GSoC! And I also just launched
 my club's new website:
 [https://stab-iitb.org/electronics-club/](https://stab-iitb.org/electronics-club/)
-which is getting awesome reviews from my freinds so I'm kinda happy and excited too!
+which is getting awesome reviews from my friends so I'm kinda happy and excited too!
 
 I also recently read 'The Martian' by Andy Weir, after having watched the really great movie.
 The book is atleast 10 times more awesome than the movie!

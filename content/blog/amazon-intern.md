@@ -3,6 +3,7 @@ title: It's Still Day 1
 date: 2017-06-12
 tag: Internship
 category: Blog
+image: amazon_desk.jpg
 ---
 
 As I sit on my desk in Amazon Bangalore Office, with two widescreen monitors and a Macbook pro,

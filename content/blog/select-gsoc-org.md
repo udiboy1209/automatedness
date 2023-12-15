@@ -3,6 +3,7 @@ title: How to select an organisation for GSoC?
 date: 2016-12-06
 tag: GSoC
 category: Blog
+image: http://67.media.tumblr.com/13d6615cc38164ea526e76dfb97120b2/tumblr_inline_o8yymp7tDw1tovw1t_500.gif
 ---
 
 Hello! Its been a long time since I have posted something, because it has been
@@ -32,8 +33,6 @@ You can see the entire list of organisations and the projects they mentored
 on [the GSoC website](https://summerofcode.withgoogle.com/archive/2016/organizations).
 Previous year's data is just a google search away
 (get used to googling and get better at it :P, it's really necessary for GSoC).
-
-![google away](http://www.towerofturtles.com/images/TOT18%20-%20Anti-googling%20-%20XKCD%20tribute.jpg)
 
 #### What should I look for in an organisation?
 

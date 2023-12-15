@@ -3,6 +3,7 @@ title: SegFaults At 3 In The Morning
 date: 2016-05-17
 tag: GSoC
 category: Blog
+image: twinkling_stars.gif
 ---
 
 Segmentation Faults are a nasty sucker. Any moderately experienced C/C++ programmer would know that. 

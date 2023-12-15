@@ -25,10 +25,12 @@
 {% if page.summary %}
 <div class="row summary">
   <div class="seven columns">
-    {{article.summary}}
+    {{ article.summary | striptags }}
   </div>
   <div class="five columns">
-    {% if article.image %}<img src="/images/{{article.image}}"/>{% endif %}
+      {% if article.image %}
+      <img src="{% if '//' in article.image %}{{ article.image }}{% else %}/images/{{article.image}}{% endif %}"/>
+      {% endif %}
   </div>
 </div>
 {% endif %}

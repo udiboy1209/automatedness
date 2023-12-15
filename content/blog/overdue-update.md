@@ -3,6 +3,7 @@ title: An Update Long Overdue
 date: 2016-07-11
 tag: GSoC
 category: Blog
+image: map_tmx.png
 ---
 
 It has been a little over a month since I last posted a blog about my updates

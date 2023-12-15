@@ -94,3 +94,8 @@ a.subtle:hover {
   text-size: 0.7em;
   color: gray;
 }
+
+.row.summary {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed blue;
+}
