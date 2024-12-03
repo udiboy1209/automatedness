@@ -3,7 +3,8 @@ title: How to select an organisation for GSoC?
 date: 2016-12-06
 tag: GSoC
 category: Blog
-image: http://67.media.tumblr.com/13d6615cc38164ea526e76dfb97120b2/tumblr_inline_o8yymp7tDw1tovw1t_500.gif
+image: dumbledore.gif
+image_size: side
 ---
 
 Hello! Its been a long time since I have posted something, because it has been

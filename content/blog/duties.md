@@ -4,6 +4,7 @@ date: 2016-06-05
 tag: GSoC
 category: Blog
 image: tty1.jpg
+image_size: side
 ---
 
 Game of Thrones fans might identify the title as a (not so)

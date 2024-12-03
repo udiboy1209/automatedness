@@ -4,6 +4,7 @@ date: 2016-10-29
 category: Blog
 tags: ADC, Dither
 image: //upload.wikimedia.org/wikipedia/commons/5/57/1_bit.png
+image_size: side
 ---
 
 Everybody has this presumed notion that noise in an electronic system is bad.

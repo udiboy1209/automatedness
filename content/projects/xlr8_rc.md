@@ -5,6 +5,7 @@ tag: Android, AVR
 date: 2017-09-03
 summary: This is a blutooth remote control for a differential drive robot. I implemented it with help of other Electronics Club, IITB members for participants of a college competition. Requires an android app, and an avr circuit to interface with the HC-05.
 image: avr_rec.jpg
+image_size: side
 ---
 
 For the XLR8 competition 2015, we had made a remote control on android for the teams to operate their bots. The remote control used the android phone's bluetooth to connect to an HC-05, followed by an ATtiny 2313 chip to decode the incoming bits. The XLR8 bots usually run on differential drive mechanism, so they require four inputs namely: 

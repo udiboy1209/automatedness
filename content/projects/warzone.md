@@ -5,6 +5,7 @@ title: Warzone
 date: 2014-07-15
 summary: Warzone is an android game in which the main charcter is a stickman stuck in a war field. Your goal is to help him dodge all the missiles falling from above.
 image: warzone/logo.png
+image_size: side
 ---
 
 <img alt="image" src="/images/warzone/logo.png" style="float: left; width: 21%; height: auto">

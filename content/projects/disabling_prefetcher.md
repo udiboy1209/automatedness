@@ -5,6 +5,7 @@ category: Research
 tag: Master's Thesis
 summary: Cache side channels are well known for being effective in extracting data from modern cryptographic ciphers. Some other hardware accessing the cache, e.g. prefetcher, degrades the quality of the side channel by introducing false positives in the attacker’s data. This project works on a method to disable the prefetcher by preventing it from generating memory accesses and interfering with side channels running in the cache.
 image: prefetch_attack.png
+image_size: side
 ---
 
 This is Chapter V of my [Master's thesis](/pdfs/masters_thesis.pdf).

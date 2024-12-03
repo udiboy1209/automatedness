@@ -4,6 +4,7 @@ date: 2016-05-17
 tag: GSoC
 category: Blog
 image: twinkling_stars.gif
+image_size: side
 ---
 
 Segmentation Faults are a nasty sucker. Any moderately experienced C/C++ programmer would know that. 
