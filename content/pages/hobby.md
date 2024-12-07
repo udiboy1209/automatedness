@@ -2,6 +2,7 @@
 title: Hobby and Open-Source Projects
 template: list
 filter_category: Hobby
+show_date: True
 ---
 
 I regularly publish code on github and gitlab, which is mainly scripts and tools I have written for my daily use or just for fun.

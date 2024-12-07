@@ -105,3 +105,8 @@ a.subtle:hover {
 hr {
     border-bottom: 1px dashed blue;
 }
+
+ol {
+    list-style-position: outside;
+    padding-left: 2em;
+}
