@@ -10,7 +10,7 @@ I am advised by [Prof. Farshad Khorrami](https://engineering.nyu.edu/faculty/far
 as part of the [Control/Robotics Research Lab (CRRL)](https://crrl.poly.edu/) and the 
 [Center for Cybersecurity](https://cyber.nyu.edu/).
 
-My research focus is on the cybersecurity of embedded systems, control systems, and cyber-physical systems.
+My research focus is on the cybersecurity of cyber-physical systems and embedded systems.
 My interests include hardware security, firmware binary analysis, reverse engineering, and applications of machine learning to security.
 Check out my [research](/research) page for recent publications and projects.
 
