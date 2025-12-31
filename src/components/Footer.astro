@@ -1,0 +1,9 @@
+---
+import { SOCIAL_LINKS } from '../config.js';
+---
+<div class="w-full flex pt-2 pb-8 justify-between items-center text-middle border-t-2">
+    <span class="text-sm flex-none">Made with <a href="https://astro.build/">Astro</a></span>
+    <div class="flex-none flex items-center gap-1 md:gap-4">
+        {SOCIAL_LINKS.map((it) => <a href={it.link}><it.icon size={16} /></a>)}
+    </div>
+</div>

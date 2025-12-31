@@ -1,0 +1,19 @@
+---
+import { SITE_NAME, NAV_LINKS, SOCIAL_LINKS } from '../config.js';
+
+const { class: className } = Astro.props;
+const bio = 'I am a PhD student at NYU Tandon focusing on cyber-physical systems security, reverse engineering, and LLMs for cybersecurity.';
+---
+<div class:list={[className, "flex flex-col gap-4 justify-center items-center"]}>
+    <img src="/profile.jpg" class="w-2/3 border-4 border-slate-800 aspect-square rounded-full object-cover" />
+    <h2 class="text-xl sm:text-2xl lg:text-4xl font-bold">{SITE_NAME}</h2>
+    <div class="mx-auto w-3/4 border-slate-800 border-2"></div>
+    <p class="text-xs sm:text-sm lg:text-md text-center mx-4 md:mx-8">{bio}</p>
+    <div class="mx-auto w-3/4 border-slate-800 border-2"></div>
+    <div class="flex items-center gap-1 lg:gap-4">
+        {SOCIAL_LINKS.map((it) => <a href={it.link}><it.icon size={24} /></a>)}
+    </div>
+    <ul class="text-center">
+        {NAV_LINKS.map((it) => <li><a class="text-sm lg:text-lg text-slate-700 hover:underline hover:text-teal-900 cursor-pointer" href={it.link}>{it.name}</a></li>)}
+    </ul>
+</div>

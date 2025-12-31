@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Footer from '../components/Footer.astro';
+
+import { getCollection } from 'astro:content';
+const mainpages = await getCollection('main');
+const sortedpages = mainpages.sort((a, b) => a.data.order - b.data.order);
+
+const featprojects = await getCollection('projects', (p) => p.data.featured === true);
+---
+<Layout>
+    <div class="flex gap-0 min-h-screen">
+        <div class="hidden flex-1 bg-teal-200 lg:block"></div>
+        <Sidebar class="bg-teal-200 text-slate-900 flex-none sticky top-0 h-screen w-40 sm:w-64 border-r-slate-800 border-r-2"/>
+        <div class="block px-10 bg-slate-100 text-zinc-800 py-16 flex-1 lg:flex-none lg:w-192">
+            {sortedpages.map(async (p) => {
+                const { Content } = await p.render();
+                return (
+                    <section id={p.slug} class="prose prose-slate max-w-full mb-12">
+                        <h2>{p.data.title}</h2>
+                        <Content />
+                    </section>
+                );
+            })}
+            <section class="prose prose-slate max-w-full mb-12">
+                <h2>Featured Projects</h2>
+                {featprojects.map((p) => {
+                    return (
+                        <h3><a href={`/projects/${p.slug}`}>{p.data.title}</a></h3>
+                        <img src={p.data.image} />
+                        <p>{p.data.summary}</p>
+                    );
+                })}
+            </section>
+            <Footer />
+        </div>
+        <div class="hidden flex-1 bg-slate-100 lg:block"></div>
+    </div>
+</Layout>
+
+<script>
+    function highlightSection() {
+        const hash = window.location.hash;
+        if (hash) {
+            const target = document.querySelector(hash);
+            if (target) {
+                // Remove class first to allow re-triggering if the user clicks again
+                target.classList.remove('animate-flash');
+                // Force a reflow to restart animation
+                void target.offsetWidth; 
+                target.classList.add('animate-flash');
+            }
+        }
+    }
+
+    // Run on initial load
+    highlightSection();
+    // Run whenever the hash changes (e.g., clicking a navigation link)
+    window.addEventListener('hashchange', highlightSection);
+</script>

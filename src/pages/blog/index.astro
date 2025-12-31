@@ -1,0 +1,8 @@
+---
+import { getCollection } from 'astro:content';
+import List from '../../layouts/List.astro';
+
+const blogEntries = await getCollection('blog');
+---
+
+<List title="Blog" entries={blogEntries} />

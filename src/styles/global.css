@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+    --animate-flash: highlight 2s ease-out;
+    @keyframes highlight {
+        0% {
+            background-color: var(--color-amber-200);
+        }
+        100% {
+            background-color: transparent;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+---
+import { Link, Calendar } from '@lucide/astro';
+
+import Layout from './Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const { entries, title } = Astro.props;
+---
+
+<Layout title={title}>
+    <div class="w-full px-4 lg:w-3/4 lg:mx-auto">
+        <Header />
+        <h2 class="text-4xl my-8">{title}</h2>
+        <div class="grid grid-col-1 gap-0">
+            {entries.sort((a, b) => b.data.date - a.data.date).map(({slug, data: d}) => {
+                const link = ( d.link !== undefined ) ? d.link : `/${title.toLowerCase()}/${slug}/`;
+                return (
+                    <div class="flex space-x-4 py-4">
+                        <div class="flex-1 block">
+                            <h3 class="text-3xl hover:underline hover:text-blue-400"><a href={link}>{d.title}</a></h3>
+                            <div class="flex items-center space-x-2 text-gray-600"><Calendar size={16} /><span>{d.date.toDateString()}</span></div>
+                            {(d.summary !== undefined) && (<p class="text-lg">{d.summary}</p>)}
+                        </div>
+                        { (d.image !== undefined) && (<img class="flex-none object-contain max-w-128 min-w-96 min-h-32 max-h-48" src={d.image}/>)}
+                    </div>
+                )
+            })}
+        </div>
+        <Footer />
+    </div>
+</Layout>

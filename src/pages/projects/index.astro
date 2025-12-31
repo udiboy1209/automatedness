@@ -1,0 +1,8 @@
+---
+import { getCollection } from 'astro:content';
+import List from '../../layouts/List.astro';
+
+const projectEntries = await getCollection('projects');
+---
+
+<List title="Projects" entries={projectEntries} />

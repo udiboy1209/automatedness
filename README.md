@@ -1,3 +1,2 @@
-# Automatedness
+Personal Website and Blog
 
-My blog and website
