@@ -8,7 +8,7 @@ summary: Waves Simulator is an app which simulates, in real time, the vibration 
 image_size: side
 ---
 
-<img alt="image"src="/images/wavesonstring/logo.png" style="float: left; width: 20%; height: auto">
+![img](/images/wavesonstring/logo.png)
 Waves Simulator is an app which simulates, in real time, the vibration of a string under the action of various waves superimposed on it. 
 You can specify the amplitude, frequency and initial phase of each wave, and also fix the speed of waves on the string.
 It also lets you plot the individual components of the wave seperately.

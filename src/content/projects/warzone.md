@@ -28,10 +28,10 @@ Issues and bugs can be posted there or feel free to message me on facebook, or e
 
 #### Screenshots
 
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_1.png">
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_5.png">
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_4.png">
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_7.png">
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_2.png">
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_6.png">
-<img alt="image"class="screenshot" src="/images/warzone/screenshot_3.png">
+![img](/images/warzone/screenshot_1.png)
+![img](/images/warzone/screenshot_5.png)
+![img](/images/warzone/screenshot_4.png)
+![img](/images/warzone/screenshot_7.png)
+![img](/images/warzone/screenshot_2.png)
+![img](/images/warzone/screenshot_6.png)
+![img](/images/warzone/screenshot_3.png)
