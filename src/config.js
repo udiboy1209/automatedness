@@ -1,6 +1,7 @@
 import { Github, Linkedin, GraduationCap, Mail } from '@lucide/astro';
 
 export const SITE_NAME = "Meet Udeshi"
+export const BIO = "I am a PhD student at NYU Tandon focusing on cyber-physical systems security, reverse engineering, and LLMs for cybersecurity."
 export const NAV_LINKS = [
     {link: '/index.html#about', name: 'About'},
     {link: '/index.html#publications', name: 'Publications'},

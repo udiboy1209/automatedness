@@ -86,8 +86,7 @@ A project with a `link` gets no detail page, so its Markdown body is never shown
 
 ### Site-wide settings
 
-- Site name, navigation links and social links: `src/config.js`. The header, sidebar and footer all read from it.
-- Sidebar bio: the `bio` constant in `src/components/Sidebar.astro`.
+- Site name, sidebar bio, navigation links and social links: `src/config.js`. The header, sidebar and footer all read from it.
 - CV: replace `public/pdfs/MeetUdeshi_cv.pdf`; the nav link points to that path.
 - Profile photo: `public/images/profile.jpg`, used by both the sidebar and the header.
 - Favicon: `public/favicon.png`.

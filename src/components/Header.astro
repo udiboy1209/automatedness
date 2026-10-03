@@ -1,8 +1,10 @@
 ---
 import { Menu } from '@lucide/astro';
 import { SITE_NAME, NAV_LINKS } from '../config.js';
+
+const { class: className = "pt-8" } = Astro.props;
 ---
-<nav class="w-full flex pt-8 pb-2 justify-between items-center text-middle border-b-2 border-slate-800 relative">
+<nav class:list={[className, "w-full flex pb-2 justify-between items-center text-middle border-b-2 border-slate-800 relative"]}>
     <img src="/images/profile.jpg" class="w-16 mr-4 flex-none aspect-square rounded-full object-cover border-2 border-slate-800" />
     <h2 class="text-2xl lg:text-4xl font-bold flex-1">{SITE_NAME}</h2>
     <ul class="flex-none hidden sm:flex gap-4">
@@ -20,5 +22,8 @@ import { SITE_NAME, NAV_LINKS } from '../config.js';
     const menu = document.getElementById('menu');
     menuBtn.addEventListener('click', (e) => {
         menu.classList.toggle('hidden');
+    });
+    menu.addEventListener('click', (e) => {
+        if (e.target.closest('a')) menu.classList.add('hidden');
     });
 </script>

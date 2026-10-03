@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Sidebar from '../components/Sidebar.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 import { getCollection } from 'astro:content';
@@ -12,12 +13,13 @@ const featprojects = await getCollection('projects', (p) => p.data.featured === 
 <Layout>
     <div class="flex gap-0 min-h-screen">
         <div class="hidden flex-1 bg-teal-200 lg:block"></div>
-        <Sidebar class="bg-teal-200 text-slate-900 flex-none sticky top-0 h-screen w-40 sm:w-64 border-r-slate-800 border-r-2"/>
-        <div class="block px-10 bg-slate-100 text-zinc-800 py-16 flex-1 lg:flex-none lg:w-192">
+        <Sidebar class="hidden md:flex bg-teal-200 text-slate-900 flex-none sticky top-0 h-screen w-64 border-r-slate-800 border-r-2"/>
+        <div class="block px-4 md:px-10 bg-slate-100 text-zinc-800 pb-16 md:pt-16 flex-1 min-w-0 lg:flex-none lg:w-192">
+            <div class="md:hidden sticky top-0 z-20 bg-slate-100 mb-8"><Header class="pt-2" /></div>
             {sortedpages.map(async (p) => {
                 const { Content } = await p.render();
                 return (
-                    <section id={p.slug} class="prose prose-slate max-w-full mb-12">
+                    <section id={p.slug} class="prose prose-slate max-w-full mb-12 scroll-mt-24 md:scroll-mt-0">
                         <h2>{p.data.title}</h2>
                         <Content />
                     </section>

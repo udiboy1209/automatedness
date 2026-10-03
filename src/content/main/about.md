@@ -6,8 +6,8 @@ order: 0
 Hello! I am *Meet Udeshi*. 
 Since Sept. 2022, I am a PhD student at *NYU Tandon* where I am advised by [Prof. Farshad Khorrami](https://engineering.nyu.edu/faculty/farshad-khorrami) and [Prof. Ramesh Karri](https://engineering.nyu.edu/faculty/ramesh-karri) in the [Control/Robotics Research Lab (CRRL)](https://crrl.poly.edu/) and the 
 [Center for Cybersecurity](https://cyber.nyu.edu/).
-My research focus is on the security of cyber-physical systems and embedded systems.
-My interests include hardware security, firmware binary analysis, reverse engineering, and applications of LLMs to cybersecurity.
+
+My research interests span **cyber-physical and embedded systems security**, with an emphasis on scalable techniques for analyzing, validating, and securing complex software-driven systems. I develop methods for **binary analysis** and semantic reverse engineering using **symbolic execution** and **neural decompilation**, and explore **malware sandboxing** and **digital twins** for realistic, system-aware security evaluation. I also investigate **LLM-based agents** for automating security analysis and emerging threats from **AI-powered malware**.
 
 Previously, I was a senior engineer at Qualcomm Bengaluru in the *ML Compiler Team*.
 I worked on the compiler stack for the
