@@ -5,7 +5,7 @@ export const NAV_LINKS = [
     {link: '/index.html#about', name: 'About'},
     {link: '/index.html#publications', name: 'Publications'},
     {link: '/projects/', name: 'Projects'},
-    {link: '/pdfs/cv_one_page.pdf', name: 'CV'},
+    {link: '/pdfs/MeetUdeshi_cv.pdf', name: 'CV'},
     {link: '/blog/', name: 'Blog'},
 ];
 export const SOCIAL_LINKS = [
