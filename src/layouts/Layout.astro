@@ -11,6 +11,7 @@ const { title = "Meet Udeshi" } = Astro.props;
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
+        <slot name="head" />
     </head>
     <body>
         <slot />
